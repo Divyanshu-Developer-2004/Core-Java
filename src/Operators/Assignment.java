@@ -15,7 +15,7 @@ public class Assignment {
 		e+=a;
 		System.out.println(a);
 		System.out.println(c);
-		System.out.println(e);//don't know why +- is printing in console
+		System.out.println(e);
 		e='Z';
 		c*=d;
 		e*=b;
