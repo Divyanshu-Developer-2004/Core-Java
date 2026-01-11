@@ -1,5 +1,5 @@
 package Loop;
-
+// works only for positive number
 public class Assign_16_Digit_in_Number {
 	public static void main(String[] args) {
 		int n=18764,c=0,a=n;
