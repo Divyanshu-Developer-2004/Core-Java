@@ -1,4 +1,4 @@
-package Static_Non_Static;
+package Static_Non_Static_And_Object;
 
 public class Assign_33_Pattern_2 {
 	
@@ -54,7 +54,7 @@ public class Assign_33_Pattern_2 {
 	}
 	
 	public static void main(String[] args) {
-		P1(5);
+		P1(11);
 		System.out.println();
 		P2(11);
 	}

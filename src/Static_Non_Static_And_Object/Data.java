@@ -1,4 +1,4 @@
-package Static_Non_Static;
+package Static_Non_Static_And_Object;
 
 public class Data {
 	static int num1=1551;

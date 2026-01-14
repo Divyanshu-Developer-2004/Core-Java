@@ -1,4 +1,4 @@
-package Static_Non_Static;
+package Static_Non_Static_And_Object;
 
 public class Laptop {
 	
@@ -12,9 +12,9 @@ public class Laptop {
 	
 	public void comparePrice(Laptop l){
 		if(this.price <l.price)
-			System.out.println(this.brand+" is Cheaper");
+			System.out.println(this.brand+" is Cheaper with price Rs "+this.price);
 		else
-			System.out.println(l.brand+" is Cheaper");
+			System.out.println(l.brand+" is Cheaper with price Rs "+l.price);
 	}
 	
 	public static void main(String[] args) {

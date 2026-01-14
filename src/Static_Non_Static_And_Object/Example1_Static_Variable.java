@@ -1,4 +1,4 @@
-package Static_Non_Static;
+package Static_Non_Static_And_Object;
 
 public class Example1_Static_Variable {
 	static int a=10;

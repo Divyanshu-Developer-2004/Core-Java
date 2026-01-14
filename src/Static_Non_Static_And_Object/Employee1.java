@@ -1,4 +1,4 @@
-package Static_Non_Static;
+package Static_Non_Static_And_Object;
 import java.util.Scanner;
 public class Employee1 {
 	int id;
