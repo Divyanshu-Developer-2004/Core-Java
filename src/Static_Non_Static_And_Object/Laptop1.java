@@ -22,10 +22,12 @@ public class Laptop1 {
 	}
 	
 	public static void main(String[] args) {
-		Laptop1 l1=HelpLaptop.getLaptop("HP",45000.0);
-		Laptop1 l2=HelpLaptop.getLaptop("ASUS",47000.0);
-		Laptop1 l3=HelpLaptop.getLaptop();
+		Laptop1 l1=HelpLaptop.Laptop_Price_Verification("HP",45000.0);
+		Laptop1 l2=HelpLaptop.Laptop_Price_Verification("ASUS",47000.0);
+		Laptop1 l3=HelpLaptop.Laptop_Price_Verification("HP2", -50);
+		Laptop1 l4=HelpLaptop.Laptop_Price_Verification("ASUS2", 600000);
+		Laptop1 l5=HelpLaptop.getLaptop();
 		l1.comparePrice(l2);
-		l2.comparePrice(l3);
+		l2.comparePrice(l5);
 	}
 }
