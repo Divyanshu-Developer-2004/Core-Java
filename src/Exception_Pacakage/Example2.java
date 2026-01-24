@@ -9,7 +9,7 @@ public class Example2 {
 //		String_Out_Of_Bound_Exception();
 //		Class_Cast_Exception();
 //		Checked_Exception_InterruptedException();
-		multi_Catch_Block();
+//		multi_Catch_Block();
 	}
 	
 	public static void Arithematic_Exception() {
@@ -18,6 +18,7 @@ public class Example2 {
 		}
 		catch(ArithmeticException e) {
 			System.out.println("Cannot Divide with Zero");
+			System.out.println(e.getMessage());//Print Message part of the error
 		}
 	}
 	
@@ -28,6 +29,7 @@ public class Example2 {
 		}
 		catch(NullPointerException e) {
 			System.out.println("Cannot perform Operations on Null");
+			e.printStackTrace();//Print whole error 
 		}
 	}
 	
