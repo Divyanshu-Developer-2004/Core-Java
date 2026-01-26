@@ -4,12 +4,15 @@ public class Student {
 	
 	int id;
 	String name;
+	int marks;
 	
-	public static void main(String[] args) {
-		
+	public Student(int id,String name,int marks) {
+		this.id=id;
+		this.name=name;
+		this.marks=marks;
 	}
 	
 	public String toString() {
-		return "id :"+id+"  name :"+name;
+		return "id :"+id+"  Name :"+name+"  Marks :"+marks;
 	}
 }
