@@ -1,4 +1,4 @@
-package Problems;
+package Problems_Day_1_to_5;
 
 public class Peak_Element {
 	public static void main(String[] args) {

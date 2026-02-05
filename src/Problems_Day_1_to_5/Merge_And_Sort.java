@@ -1,4 +1,4 @@
-package Problems;
+package Problems_Day_1_to_5;
 import java.util.*;
 public class Merge_And_Sort {
 	public static void main(String[] args) {
